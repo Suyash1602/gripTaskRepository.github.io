@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    /* color: rgb(211, 211, 111); */
+    float: left;
+    margin: 10px 30px;
+    font-size: 50px;
+}
+.heading a{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    background-color:#c5aa6a;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.navbar li{
+    float: left;
+    display: inline;
+    padding: 0px 10px;
+    padding-top: 30px;
+    position: relative;
+    left: 750px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px;
+}
+ul .active a ,.navbar li a:hover{
+    text-decoration: none;
+    color: black;
+    border: 2px solid white;
+    background-color: white;
+    font-size: 20px;
+    cursor: context-menu;
+}
+
+.intro{
+    float: left;
+    display: inline;
+    position: relative;
+    left: 25px;
+    top: 110px;
+    font-size: 40px;
+    text-align: left;
+}
+
+ img{
+    position: absolute;
+    top: 150px;
+    left: 970px;
+    height: 500px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #c5aa6a;
+    text-align: center;
+    padding-top: 5px;
+}
+.desc{
+    position: relative;
+    width: 55%;
+    text-align: center;
+    left: 30px;
+    margin: 10px;
+    border: 1px solid grey;
+    /* background-color: red; */
+    padding:20px;
+    font-size: 30px;
+}
+
+
+/* navbar ends here  */
+
+.form{
+    position: relative;
+    width: 25%;
+    left: 40%;
+    top: 30px;
+    padding: 20px;
+    background-color: #c5aa6a;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+label{
+    text-align: left;
+}
+input{
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+    outline: none;
+}
+td{
+    text-align: right;
+}
+
+tr td input .submit{
+    text-align: center;
+}
