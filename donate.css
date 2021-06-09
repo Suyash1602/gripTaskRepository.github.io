@@ -109,9 +109,20 @@ footer{
 
 .btn{
     position: absolute;
-    /* border: 2px solid red; */
+    border: 5px solid #c5aa6a;
     align-self: center;
     left: 350px;
+    padding: 10px;
+}
+
+.btn:hover{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation:slidebg 5s linear infinite;
+}
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
 }
 
 img {
@@ -120,4 +131,5 @@ img {
     left: 1000px;
     height: 500px;
     width: 30%;
+    border: 5px solid #c5aa6a;
 }
